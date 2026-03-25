@@ -32,12 +32,17 @@ for i in range(1,4):
 
     print()
 
+
 # 5. uso de continue
 
 nombres = ["Camila", "Pedro", "Juan", "Emilio"]
 
 for nombre in nombres:
     if nombre == "Juan":
-        continue
+        continue # salta esta iteración y no imprime "Juan"
 
     print(nombre)
+
+# este programa recorre una lista de nombres e imprime cada uno,
+# excepto "Juan". El ciclo termina automáticamente cuando se recorren
+# todos los elementos de la lista.
